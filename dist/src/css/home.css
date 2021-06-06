@@ -1,0 +1,20 @@
+.main-content{
+    text-align : left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.seriesLink img{
+    width: 120px;
+    height: 200px;
+}
+
+.movieLink img{
+    width: 120px;
+    height: 200px;
+}
