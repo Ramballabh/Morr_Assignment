@@ -11,14 +11,19 @@ export default class Home extends Component {
         return (
             <div>
                 <Navigation />
-                <div className = "main-content">
+                <div className = "main-content1">
+                    <div id="titles">
+                        <h2>Popular Titles</h2>
+                    </div>
+                    <div className = "main-content">
                     <div className= "card">
-                    <NavLink className= "seriesLink"  exact activeClassName= "active_class" to="/Movies"><img src={Series} /></NavLink><br></br>
+                    <NavLink className= "seriesLink"  exact activeClassName= "active_class" to="/Series"><img src={Series} /></NavLink><br></br>
                     Popular Series
                     </div>
                     <div className = "card">
-                    <NavLink className= "movieLink"  exact activeClassName= "active_class" to="/Series"><img src={movies} /></NavLink><br></br>
+                    <NavLink className= "movieLink"  exact activeClassName= "active_class" to="/Movies"><img src={movies} /></NavLink><br></br>
                     Popular Movies
+                    </div>
                     </div>
                 </div>
                 <Footer />

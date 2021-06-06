@@ -41,17 +41,4 @@
     transition-duration: .4s;
 }
 
-#Nav1{
-    background-color:darkslategray;
-    width: 100%;
-    height: 70px;
-}
-
-#Nav1 h2{
-    color: white;
-    text-align: left;
-    margin-left: 120px;
-    padding-top: 15px;
-}
-
 

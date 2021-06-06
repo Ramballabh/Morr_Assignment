@@ -16,9 +16,6 @@ export default class Navigation extends Component {
                         </li>
                     </ul>
                 </div>
-                <div id="Nav1">
-                    <h2>Popular Titles</h2>
-                </div>
             </>
         )
     }

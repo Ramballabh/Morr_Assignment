@@ -1,0 +1,39 @@
+.content{
+    
+}
+
+.title1{
+    background-color:darkslategray;
+    width: 100%;
+    height: 70px;
+}
+
+.title1 h2{
+    color: white;
+    text-align: left;
+    margin-left: 120px;
+    padding-top: 15px;
+}
+
+.card_content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.card1{
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 130px;
+    height: 220px;
+}
+
+.card1 img{
+    width: 120px;
+    height: 200px;
+}
+
+
+
+
