@@ -48,7 +48,7 @@
     }
 
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
     #Nav ul{
         margin-left: 130px;
         margin-top: -20px;
@@ -63,8 +63,11 @@
         margin-left: 10px;
         font-size: small;
     }
+}
 
-
-
+@media screen and (max-width: 500px){
+    #Nav{
+        overflow: hidden;
+    }
 }
 
