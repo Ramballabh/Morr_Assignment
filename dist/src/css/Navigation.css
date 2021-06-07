@@ -11,14 +11,15 @@
 }
 
 #Nav h1{
-    display: inline-block;
     color: white;
-    margin-top: 15px;
+    padding-top: 15px;
+    text-align: left;
+    margin-left: 120px;
 }
 
 #Nav ul{
-    display: inline-block;
-    margin-left: 600px;
+    margin-left: 700px;
+    margin-top: -40px;
 }
 
 #Nav ul li{
@@ -41,4 +42,29 @@
     transition-duration: .4s;
 }
 
+@media screen and (max-width: 1153px){
+    #Nav ul{
+        margin-left: 500px;
+    }
+
+}
+@media screen and (max-width: 900px){
+    #Nav ul{
+        margin-left: 130px;
+        margin-top: -20px;
+    }
+
+    #Nav h1{
+        font-size: small;
+        margin-left: 10px;
+    }
+
+    #Nav ul li{
+        margin-left: 10px;
+        font-size: small;
+    }
+
+
+
+}
 
