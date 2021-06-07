@@ -1,3 +1,13 @@
+1. How did you decide on the technical and architectural choices used as part of your solution?
+Ans. We have used ReactJs library beacause ReactJs is flexible, declarative and efficient Javascript library for building user interface. React allows developers to create large web applications that can change data, without reloading the page. The ability to integrate with other frameworks seamlessly gives it a great advantage for those who would like some flexibility in their code.
+
+2. Are there any improvements you could make to your submission?
+Ans. Yes
+
+3. What would you do differently if you were allocated more time?
+Ans. We can put realtime API which will give realtime data to app so that we get new Series and Movies update. 
+     Add backend to this app for login and other services.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +78,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
